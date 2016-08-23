@@ -349,13 +349,39 @@ namespace EventRSVPportal
 		}
 
 		public static int guestPrompt1() {
-			Console.WriteLine ("Please enter your login ID: ");
-			int loginID = Convert.ToInt32(Console.ReadLine());
+
+			bool validInput = false;
+			int loginID = 0;
+
+			do {
+				Console.WriteLine ("Please enter your login ID: ");
+				validInput = true;
+
+				try {
+					loginID = Convert.ToInt32 (Console.ReadLine ());
+				} catch (FormatException) {
+					Console.WriteLine ("Invalid.");
+					validInput = false;
+				}
+			} while(validInput == false);
 			return loginID;
 		}
 		public static int guestPrompt2() {
-			Console.WriteLine ("Please enter your invitation #: ");
-			int invNum = Convert.ToInt32(Console.ReadLine());
+
+			bool validInput = false;
+			int invNum = 0;
+
+			do {
+				Console.WriteLine ("Please enter your invitation #: ");
+				validInput = true;
+
+				try {
+					invNum = Convert.ToInt32 (Console.ReadLine ());
+				} catch (FormatException e) {
+					Console.WriteLine ("Invalid");
+					validInput = false;
+				}
+			} while (validInput == false);
 			return invNum;
 		}
 
