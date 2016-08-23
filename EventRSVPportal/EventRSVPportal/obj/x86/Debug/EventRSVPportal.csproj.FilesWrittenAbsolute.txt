@@ -1,0 +1,5 @@
+/Users/bmckeown2011/Projects/EventRSVPportal/EventRSVPportal/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bmckeown2011/Projects/EventRSVPportal/EventRSVPportal/bin/Debug/EventRSVPportal.exe.mdb
+/Users/bmckeown2011/Projects/EventRSVPportal/EventRSVPportal/bin/Debug/EventRSVPportal.exe
+/Users/bmckeown2011/Projects/EventRSVPportal/EventRSVPportal/obj/x86/Debug/EventRSVPportal.exe
+/Users/bmckeown2011/Projects/EventRSVPportal/EventRSVPportal/obj/x86/Debug/EventRSVPportal.exe.mdb
