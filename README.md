@@ -3,6 +3,8 @@
 This project is my first using C#/.NET framework. As of now, it is a simple console/terminal application. I wanted to get the backend 
 components laid out before creating a GUI. This will be coming in the future. 
 
+View video demonstration here of program run here: https://www.youtube.com/watch?v=IOFu-wOViII
+
 The goal of this project is to build a login portal system for event invitees, in this case, particularly for a wedding. 
 
 There are plenty of wedding websites out there, that allow guests to respond online. However, most of these that I have come across, will
